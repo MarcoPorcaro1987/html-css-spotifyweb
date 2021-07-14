@@ -12,20 +12,25 @@ body {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: #686868;
+}
 /*Header*/
 
 header {
     position: fixed;
     width: 100%;
+    top:0;
+    
 }
 
 .head-cont {
     height: 70px;
-    background-color: black;
-    opacity: 0.9;
     text-align: right;
     line-height: 70px;
     padding-right: 20px;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .head-btn {
@@ -36,4 +41,65 @@ header {
     padding:10px 25px;
     border-color: white;
     border-radius: 20px;
+}
+
+/*Main*/
+
+main {
+    height: calc(100vh - 100px);
+    background-color: #141922;
+    overflow-y: auto;
+}
+.main-cont {
+    display: flex;
+}
+
+/*Sidebar*/
+
+.sidebar-cont {
+    width: 300px;
+    background-color: black;
+    height: 100%;
+    z-index: 1;
+    margin: 0;
+    padding: 10px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.logo img{
+    height: 40px;
+}
+
+.nav-cont li {
+    margin-top: 5px;
+}
+
+nav .home-cont {
+    border-left: 2px solid #adff2f;
+}
+
+.img-nav {
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#icon-home {
+    color: white;
+}
+ 
+/*Sections*/
+
+.sections {
+    width: auto;
+}
+
+/*Footer*/
+
+footer {
+    height: 100px;
+    background-color: #282828;
 }
