@@ -65,6 +65,8 @@ main {
     padding: 10px;
 }
 
+/*First Nav*/
+
 .logo {
     height: 50px;
 }
@@ -74,7 +76,7 @@ main {
 }
 
 .nav-cont li {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 nav .home-cont {
@@ -91,6 +93,17 @@ nav .home-cont {
     color: white;
 }
  
+/*Second Nav*/
+
+.sidebar-cont p {
+    margin-top: 20px;
+}
+
+.fa-plus-square {
+    font-size: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
 /*Sections*/
 
 .sections {
