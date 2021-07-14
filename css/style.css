@@ -5,3 +5,35 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+
+/*Common*/
+
+body {
+    color: white;
+}
+
+/*Header*/
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.head-cont {
+    height: 70px;
+    background-color: black;
+    opacity: 0.9;
+    text-align: right;
+    line-height: 70px;
+    padding-right: 20px;
+}
+
+.head-btn {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    font-size: 9px;
+    padding:10px 25px;
+    border-color: white;
+    border-radius: 20px;
+}
