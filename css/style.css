@@ -10,6 +10,8 @@
 
 body {
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 li {
     list-style: none;
@@ -17,6 +19,26 @@ li {
 a {
     text-decoration: none;
     color: #686868;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+.overflow-y {
+    overflow-y: auto;
+}
+
+
+section p {
+    margin-top: 5px;
+    color: #686868;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 
@@ -64,11 +86,9 @@ main {
 .sidebar-cont {
     width: 250px;
     background-color: black;
-    z-index: 1;
     margin: 0;
     padding: 10px;
     position: relative;
-    font-size: 12px;
 }
 
 /*First Nav*/
@@ -146,8 +166,41 @@ nav .home-cont {
 /*Sections*/
 
 .sections {
-    width: auto;
+    margin: 80px 0 40px 0;
+    width:calc(100% - 250px);
+    padding: 0 20px;
 }
+
+/*Main Nav*/
+
+.main-nav {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sections li {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/*Section Top*/
+
+.section-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-cont {
+    width:calc((100% / 6) - 10px); 
+    text-align: center;
+    margin: 25px 10px 20px 0;
+}
+
+.card-cont img{
+    width: 100%;    
+}
+
+/*Section Center*/
 
 
 /*Footer*/
