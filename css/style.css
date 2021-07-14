@@ -78,7 +78,6 @@ main {
 }
 .main-cont {
     display: flex;
-    height: 100%;
 }
 
 /*Sidebar*/
@@ -89,6 +88,7 @@ main {
     margin: 0;
     padding: 10px;
     position: relative;
+    min-height: calc(100vh - 80px);
 }
 
 /*First Nav*/
