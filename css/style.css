@@ -2,7 +2,7 @@
 
 * {
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -89,10 +89,8 @@ main {
 .sidebar-cont {
     width: 250px;
     background-color: black;
-    margin: 0;
     padding: 10px;
     position: relative;
-    min-height: 100%;
 }
 
 /*First Nav*/
@@ -210,4 +208,40 @@ footer {
     height: 80px;
     background-color: #282828;
     display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
+
+.foot-left, .foot-right, .foot-center {
+    display: flex;
+    align-items: center;
+}
+
+.foot-left, .foot-right, {
+width: 25%;
+}
+
+footer img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+footer p {
+    color: #686868;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+footer i {
+    color:#686868;
+    margin-right: 5px; 
+}
+/*Foot-left*/
+
+.text-img {
+    margin-right: 20px;
+}
+
+
+
+
