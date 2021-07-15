@@ -21,13 +21,10 @@ a {
     color: #686868;
 }
 
-h2 {
+h2, h4 {
     margin: 20px 0;
 }
 
-h4 {
-    margin-top: 10px;
-}
 
 .overflow-y {
     overflow-y: auto;
@@ -45,23 +42,30 @@ p {
 }
 
 
-/*Header*/
+/*Main*/
 
-header {
-    width: 100%;
-    position: fixed;
-    top:0;
+main {
+    height: calc(100vh - 80px);
+    background-color: #141922;
+    overflow-y: auto;
+    display: flex;
 }
 
-.head-cont {
+/*Top-Main*/
+
+.top-main {
     height: 70px;
     text-align: right;
     line-height: 70px;
     padding-right: 20px;
     background: rgba(0, 0, 0, 0.3);
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    position: fixed;
+    top:0;
 }
 
-.head-btn {
+.topmain-btn {
     display: inline-block;
     color: white;
     background-color: black;
@@ -71,27 +75,16 @@ header {
     border-radius: 20px;
 }
 
-/*Main*/
-
-main {
-    height: calc(100vh - 80px);
-    background-color: #141922;
-    overflow-y: auto;
-}
-.main-cont {
-    display: flex;
-}
-
 /*Sidebar*/
 
 .sidebar-cont {
     width: 250px;
     background-color: black;
     padding: 10px;
-    position: relative;
 }
 
 /*First Nav*/
+
 
 .logo {
     height: 50px;
@@ -105,7 +98,7 @@ main {
     margin-top: 10px;
 }
 
-nav .home-cont {
+.home-cont {
     border-left: 2px solid #adff2f;
 }
 
@@ -121,8 +114,9 @@ nav .home-cont {
  
 /*Second Nav*/
 
-.nav-cont p {
-    margin-top: 20px;
+.playlist {
+    height: calc(100% - 290px);
+    overflow-y: auto;
 }
 
 .fa-plus-square {
@@ -132,11 +126,6 @@ nav .home-cont {
 }
 
 /*Foot-Sidebar*/
-
-.foot-sidebar {
-    position: absolute;
-    bottom: 5px;
-}
 
 .download-icon, .profile-icon {
     height: 15px;
