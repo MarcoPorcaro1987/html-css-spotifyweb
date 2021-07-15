@@ -80,13 +80,22 @@ main {
 .sidebar-cont {
     width: 250px;
     background-color: black;
-    padding: 10px;
+    padding-bottom: 10px;
 }
+
+.logo, .nav-cont, .foot-sidebar {
+    margin-left: 10px;
+}
+
 
 /*First Nav*/
 
+.first-nav{
+    margin-left: 0;
+}
 
 .logo {
+    margin-top: 10px;
     height: 50px;
 }
 
@@ -106,10 +115,12 @@ main {
     height: 20px;
     margin-right: 10px;
     vertical-align: middle;
+    margin-left: 10px;
 }
 
 #icon-home {
     color: white;
+   
 }
  
 /*Second Nav*/
@@ -119,10 +130,17 @@ main {
     overflow-y: auto;
 }
 
-.fa-plus-square {
-    font-size: 30px;
+.square {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
     vertical-align: middle;
-    margin-right: 10px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    background-color: #a3a3a3;
 }
 
 /*Foot-Sidebar*/
@@ -170,6 +188,10 @@ main {
     display: inline-block;
     margin-right: 10px;
     font-weight: bold;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #adff2f;
 }
 
 /*Sections*/
