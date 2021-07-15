@@ -237,7 +237,7 @@ footer p {
 
 footer i {
     color:white;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 /*Foot-left*/
 
@@ -275,7 +275,7 @@ footer i {
     color: white;
 }
 
-.hr-white, .hr-grey {  
+.hr-style {  
     border: none;
     height:4px;
     border-radius: 10px;
@@ -291,4 +291,20 @@ footer i {
     width:50%;
     background-color: #5a5a5a;
     margin-right: 15px;
+}
+
+/*Foot-right*/
+
+.foot-right {
+    justify-content: flex-end;
+}
+
+.hr-white1 {
+    width: 5%;
+    background-color: #c1c1c1;
+}
+
+.hr-grey2 {
+    width: 25%;
+    background-color: #5a5a5a;
 }
