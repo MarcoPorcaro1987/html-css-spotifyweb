@@ -13,9 +13,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
+
 li {
     list-style: none;
 }
+
 a {
     text-decoration: none;
     color: #686868;
@@ -41,6 +43,41 @@ p {
     font-weight: bold;
 }
 
+/*Hover*/ 
+
+button:hover, .fa-play-circle:hover {
+    transform: scale(1.2);
+}
+
+a:hover, .foot-left i:hover, .sidebar-cont li:hover  {
+    color: white;
+}
+
+.square:hover {
+    background-color: white;    
+}
+
+.text-img p:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.hover-card:hover .card {
+    opacity: 0.6;
+}
+
+.hover-card:hover .fa-play-circle {
+    display: block;
+}
+
+.b-cont:hover .b-white1, .b-cont:hover .b-white2 {
+    background-color: #adff2f;
+}
+
+.b-cont:hover .circle {
+    display: block;
+}
+
 
 /*Main*/
 
@@ -57,7 +94,7 @@ main {
     height: 70px;
     text-align: right;
     line-height: 70px;
-    padding-right: 20px;
+    padding-right: 40px;
     background: rgba(0, 0, 0, 0.3);
     width: calc(100% - 250px);
     margin-left: 250px;
@@ -143,6 +180,7 @@ main {
     background-color: #a3a3a3;
 }
 
+
 /*Foot-Sidebar*/
 
 .download-icon, .profile-icon {
@@ -207,8 +245,21 @@ main {
     margin: 25px 10px 20px 0;
 }
 
-.card-cont img{
+.card {
     width: 100%;   
+}
+
+.hover-card {
+    position: relative;
+}
+
+.hover-card .fa-play-circle {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    display: none;
 }
 
 /*Footer*/
@@ -272,7 +323,7 @@ footer i {
     margin-bottom: 20px;
 }
 
-.fa-play-circle {
+.foot-center .fa-play-circle {
     font-size: 20px; 
 }
 
@@ -281,27 +332,40 @@ footer i {
     vertical-align: middle;
 }
 
-
 .foot-center p {
     color: white;
 }
 
-.hr-style {  
-    border: none;
-    height:4px;
+.b-cont {
+    height: 3px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.border-style {
     border-radius: 10px;
 }
 
-.hr-white {
+.b-white1 {
     background-color:#c1c1c1;
-    width: 15%;
-    margin-left: 15px;
+    width: 25%;
+    margin-left: 20px;
 }
 
-.hr-grey {
-    width:50%;
+.b-grey1 {
+    width: 75%;
     background-color: #5a5a5a;
-    margin-right: 15px;
+    margin-right: 20px;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top:-4px;
+    display: none;
 }
 
 /*Foot-right*/
@@ -310,12 +374,16 @@ footer i {
     justify-content: flex-end;
 }
 
-.hr-white1 {
-    width: 5%;
+.b-cont-fr {
+    width: 35%;
+}
+
+.b-white2 {
+    width: 15%;
     background-color: #c1c1c1;
 }
 
-.hr-grey2 {
-    width: 25%;
+.b-grey2 {
+    width: 85%;
     background-color: #5a5a5a;
 }
