@@ -1,0 +1,54 @@
+/*<1101*/
+
+@media screen and (max-width:1100px){
+    .card-cont {
+        width:calc((100% / 4) - 10px)
+    }
+}
+
+/*<701*/
+
+@media screen and (max-width:700px){
+    .card-cont {
+        width:calc((100% / 2) - 10px)
+    }
+}
+
+/*<601*/
+
+@media screen and (max-width:600px){
+
+    .top-main {
+        width: calc(100% - 35px);
+        margin-left: 35px;
+    }
+
+    .logo, .sidebar-cont a, h4, hr {
+        display: none;
+    }
+    .logo-small {
+        display: block;
+    }
+
+    .playlist {
+        height: calc(100% - 190px);
+    }
+
+    .sidebar-cont {
+        width: 35px;
+        padding-top: 5px;
+    }
+
+    .logo-cont, .foot-sidebar, .img-nav {
+        margin-left: 5px;
+    }
+
+    .home-img {
+        margin-left: 3px;
+    }
+
+    .download-icon {
+        margin-bottom: 5px;
+    }
+
+}

@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsiveSpotify.css">
     </head>
     <body>
         <main>
@@ -17,25 +18,23 @@
                 <button class="topmain-btn">EFFETTA L'UPGRADE</button>
             </div>
             <aside class="sidebar-cont">
-                <div class="logo">
-                    <img src="img/logo.svg" alt="favicon">
+                <div class="logo-cont">
+                    <img class="logo" src="img/logo.svg" alt="logo Spotify">
+                    <img class="logo-small" src="img/logo-small.svg" alt="logo Spotify small">
                 </div>
-                <nav class="first-nav nav-cont ">
+                <nav class="first-nav nav-cont">
                     <ul>
                         <li class="home-cont">
-                            <a id="icon-home" href="#">
-                                <img class="img-nav"  src="img/home.svg" alt="icon home">Home
-                            </a>
+                            <img class="img-nav home-img"  src="img/home.svg" alt="icon home">
+                            <a id="icon-home" href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">
-                                <img class="img-nav" src="img/search.svg" alt="icon search">Cerca
-                            </a>
+                            <img class="img-nav" src="img/search.svg" alt="icon search">
+                            <a href="#">Cerca</a>
                         </li>
                         <li>
-                            <a href="#">
-                                <img class="img-nav" src="img/libreria.svg" alt="icon library">La tua libreria
-                            </a>
+                            <img class="img-nav" src="img/libreria.svg" alt="icon library">
+                            <a href="#">La tua libreria</a>
                         </li>
                     </ul>
                 </nav>
@@ -70,13 +69,14 @@
                 </ul>
                 <div class="foot-sidebar">
                     <div class="download-cont">
-                        <a href="#">
-                            <img class="download-icon" src="img/download.svg" alt="icon download">Installa app
-                        </a>
+                        <img class="download-icon" src="img/download.svg" alt="icon download">
+                        <a href="#">Installa app</a>
                     </div>
                     <hr>
                     <div class="profile-cont">
-                        <a href="#"><img class="profile-icon" src="img/profile.svg" alt="icon profile">John Doe</a></div>
+                        <img class="profile-icon" src="img/profile.svg" alt="icon profile">
+                        <a href="#">John Doe</a>
+                    </div>
                 </div>
             </aside>
             <div class="sections">
