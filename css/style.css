@@ -48,10 +48,12 @@ p {
 
 button:hover, .fa-play-circle:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 a:hover, .foot-left i:hover, .nav-cont li:hover  {
     color: white;
+    cursor: pointer;
 }
 
 .square:hover {
@@ -61,10 +63,12 @@ a:hover, .foot-left i:hover, .nav-cont li:hover  {
 .text-img p:hover {
     color: white;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .hover-card:hover .card {
     opacity: 0.6;
+    cursor: pointer;
 }
 
 .hover-card:hover .fa-play-circle {
@@ -237,9 +241,15 @@ main {
     font-weight: bold;
 }
 
-.border-bottom {
-    border-bottom: 2px solid #adff2f;
+.main-nav > ul > li:first-child::after {
+    content: "";
+    background-color: #adff2f;
+    height: 1px;
+    width: 40%;
+    display: block;
+    margin: 2px auto;
 }
+
 
 /*Sections*/
 
@@ -355,6 +365,7 @@ footer i {
 
 .border-style {
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .b-white1 {
